@@ -8,7 +8,49 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+    
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 0px;
+        width: 100%;
+      }
 
+      h1 {
+        font-size: 30px;
+        line-height: 1;
+      }
+
+      h4 {
+        font-size: 18px;
+        line-height: 1;
+        color: rgb(153, 153, 153);
+      }
+
+      span.label {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 100%;
+        font-weight: bold;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        border-radius: .25em;
+        padding: 5px 3px 2px;
+      }
+      span.label-arch { background-color: #4CAF50; }
+      span.label-sys { background-color: #2196F3; }
+      span.label-sec { background-color: #F44336; }
+      span.label-ai { background-color: #FF9800; }
+      span.label-neuro { background-color: #008080; }
+      span.label-gpu { background-color: #191970; }
+      span.label-fpga { background-color: #B8860B; }
+      span.label-modeling { background-color: #708090; }
+      span.label-mobile { background-color: #BA55D3; }
+
+    </style>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -17,7 +59,7 @@
       <div>
           <div>
             <h1>Jinwoo Choi</h1>
-            <h4>HPCPLab@Yonsei University</h4>
+            <h4>HPCP Lab @ Yonsei University</h4>
           </div>
       </div>
     </div>
@@ -28,7 +70,7 @@
       <!-- <div id="content"> -->
         <h1>Introduce</h1>
           <ul>
-            <li>Ph.D Student at <a href="https://hpcp.yonsei.ac.kr">HPCPLab@Yonsei University</a></li>
+            <li>Ph.D Student at <a href="https://hpcp.yonsei.ac.kr">HPCP Lab @ Yonsei University</a></li>
             <li>Advisor:<a href="https://hpcp.yonsei.ac.kr/~youngsok/"> Prof. Youngsok Kim</a></li>
           </ul>
 
@@ -47,15 +89,17 @@
               Jinwoo Choi<small><sup>1</sup></small>, Jaeyeon Kim<small><sup>1</sup></small>, Chaemin Lim<small><sup>1</sup></small>, Suhyun Lee, Jinho Lee, Dokyung Song, and Youngsok Kim<br>
               <i>23rd ACM/IFIP International Middleware Conference (<b>Middleware</b>)</i>, Nov. 2022 (to appear)<br>
               <small><sup>1</sup>Co-first authors</small><br>
-              SystemSW / Mobile / Security / AI
+              <span class="label label-sys">System SW</span> <span class="label label-mobile">Mobile</span> <span class="label label-sec">Security</span> <span class="label label-ai">AI</span>
+ 
             </li>
             <br>
             <li>
               <b><a href="https://doi.org/10.1109/DAC18074.2021.9586312">Dataflow Mirroring: Architectural Support for Highly Efficient Fine-Grained Spatial Multitasking on Systolic-Array NPUs</a></b><br>
-              Jounghoo Lee<small><sup>1</sup></small>, Jinwoo Choi<small><sup>1</sup></small>, Jaeyeon Kim, Jinho Lee, and Youngsok Kim<br>
+              Jinwoo Choi<small><sup>1</sup></small>, Jounghoo Lee<small><sup>1</sup></small>, Jaeyeon Kim, Jinho Lee, and Youngsok Kim<br>
               <i>58th ACM/IEEE Design Automation Conference (<b>DAC</b>)</i>, Dec. 2021<br>
               <small><sup>1</sup>Co-first authors</small><br>
-              Architecture / AI
+              <span class="label label-arch">Architecture</span>
+              <span class="label label-ai">AI</span>
             </li>
           </ul>
 
