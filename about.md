@@ -10,6 +10,11 @@ Some information about you!
 
 A place to include any other types of information that you'd like to include about yourself.
 
+### Research
+Computer System
+Scheduling
+Computer Architecture
+
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jinwoo1029@yonsei.ac.kr](mailto:jinwoo1029@yonsei.ac.kr)
