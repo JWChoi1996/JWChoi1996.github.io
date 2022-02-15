@@ -70,16 +70,6 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
