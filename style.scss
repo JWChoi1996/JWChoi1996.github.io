@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 800px;
   padding: 0 10px;
   width: 100%;
 }
@@ -282,6 +282,30 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+span.label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: .25em;
+  padding: 5px 3px 2px;
+}
+span.label-arch { background-color: #4CAF50; }
+span.label-sys { background-color: #2196F3; }
+span.label-sec { background-color: #F44336; }
+span.label-ai { background-color: #FF9800; }
+span.label-neuro { background-color: #008080; }
+span.label-gpu { background-color: #191970; }
+span.label-fpga { background-color: #B8860B; }
+span.label-modeling { background-color: #708090; }
+span.label-mobile { background-color: #BA55D3; }
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
