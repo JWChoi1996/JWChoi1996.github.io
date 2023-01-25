@@ -118,4 +118,6 @@ span.label-gpu { background-color: #191970; }
 span.label-fpga { background-color: #B8860B; }
 span.label-modeling { background-color: #708090; }
 span.label-mobile { background-color: #BA55D3; }
+span.label-database { background-color: #4B0150; }
+span.label-pim { background-color: #FF6700; }
 
